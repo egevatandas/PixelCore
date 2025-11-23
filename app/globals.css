@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #D32F2F;
+    --primary-foreground: #FFFFFF;
+    --secondary: #111111;
+    --secondary-foreground: #FFFFFF;
+    --background: #FFFFFF;
+    --background-alt: #F3F4F6;
+    --text: #1F2937;
+    --text-muted: #6B7280;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-[#1F2937] font-sans;
+    font-family: 'Inter', 'Manrope', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  display: flex;
+  width: fit-content;
+}
+
