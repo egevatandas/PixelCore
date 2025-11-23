@@ -275,7 +275,7 @@ const CustomerReviewsSection = () => {
 
                                         {/* Yorum */}
                                         <p className="text-text-muted leading-relaxed mb-6 flex-grow">
-                                            "{review.comment}"
+                                            &quot;{review.comment}&quot;
                                         </p>
 
                                         {/* Müşteri Bilgisi */}

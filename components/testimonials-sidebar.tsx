@@ -47,7 +47,7 @@ export default function TestimonialsSidebar() {
                 ))}
               </div>
               <p className="text-sm text-text-muted italic mb-2">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
               <p className="text-xs font-semibold text-secondary">{testimonial.name}</p>
               <p className="text-xs text-text-muted">{testimonial.company}</p>

@@ -18,7 +18,7 @@ const AboutSection = () => {
           <div className="prose prose-lg max-w-none text-text-muted leading-relaxed space-y-6">
             <p className="text-xl">
               PixelCore olarak, 2015 yılından bu yana dijital dünyada markaların 
-              başarı hikayelerini yazıyoruz. Türkiye'nin önde gelen dijital ajanslarından 
+              başarı hikayelerini yazıyoruz. Türkiye&apos;nin önde gelen dijital ajanslarından 
               biri olarak, müşterilerimize kapsamlı dijital çözümler sunuyoruz.
             </p>
             <p>
@@ -57,7 +57,7 @@ const VisionMissionSection = () => {
               <h2 className="text-3xl font-bold text-secondary">Vizyonumuz</h2>
             </div>
             <p className="text-text-muted leading-relaxed text-lg">
-              Türkiye'nin en yenilikçi ve güvenilir dijital ajansı olmak. Dijital 
+              Türkiye&apos;nin en yenilikçi ve güvenilir dijital ajansı olmak. Dijital 
               dünyada markaların başarısına katkı sağlayarak, sektörde öncü bir 
               konumda yer almak ve global pazarda da adımızdan söz ettirmek.
             </p>

@@ -158,7 +158,7 @@ export default function ServiceDetailPage() {
                       </div>
 
                       <p className="text-lg text-text-muted leading-relaxed italic border-l-4 border-primary pl-4">
-                        "{service.testimonial.comment}"
+                        &quot;{service.testimonial.comment}&quot;
                       </p>
                     </div>
                   </div>

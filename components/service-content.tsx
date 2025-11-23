@@ -94,7 +94,7 @@ export default function ServiceContent({ service }: ServiceContentProps) {
                       ))}
                     </div>
                     <p className="text-text-muted italic mb-4 text-lg leading-relaxed">
-                      "{testimonials[0].text}"
+                      &quot;{testimonials[0].text}&quot;
                     </p>
                     <div>
                       <p className="font-semibold text-secondary">{testimonials[0].name}</p>
