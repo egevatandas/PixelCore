@@ -4,7 +4,7 @@ const siteConfig = {
   name: "PixelCore",
   title: "PixelCore | Dijital Dönüşüm ve Yazılım Ajansı",
   description: "Markanızı dijital dünyada zirveye taşıyoruz. Web tasarım, yazılım, SEO ve mobil uygulama çözümleriyle PixelCore yanınızda.",
-  url: "https://pixelcore.com",
+  url: "https://pixelcore-demo.netlify.app",
   ogImage: "/opengraph-image.png",
   twitterImage: "/opengraph-image.png", // Twitter için de aynı görseli kullanıyoruz
   keywords: [
