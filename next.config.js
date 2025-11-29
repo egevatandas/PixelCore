@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'standalone', // Docker ve production için optimize edilmiş output
   images: {
     remotePatterns: [
       {
