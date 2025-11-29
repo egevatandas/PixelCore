@@ -3,7 +3,7 @@ import { projects } from "@/data/projects"
 import { services } from "@/data/services"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://pixelcore.com"
+  const baseUrl = "https://pixelcore-demo.netlify.app"
 
   // Static pages
   const staticPages = [

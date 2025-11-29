@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next"
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://pixelcore.com"
+  const baseUrl = "https://pixelcore-demo.netlify.app"
 
   return {
     rules: [
@@ -14,6 +14,7 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${baseUrl}/sitemap.xml`,
   }
 }
+
 
 
 
